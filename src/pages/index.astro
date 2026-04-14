@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import Hero2 from '../components/Hero2.astro';
+import BlocTexte from '../components/BlocTexte.astro';
+
+const schema = null
+
+---
+
+<BaseLayout
+  title="Entreprise multiservices près de Redon et Massérac - CJAL"
+  description="Artisan multiservices à Massérac et autour de Redon..."
+  canonical="https://www.cjalmultiservices.fr/"
+  ogTitle="Artisan multiservices Redon Massérac"
+  ogDescription="Maçonnerie, terrassement, bricolages : tous vos travaux à domicile près de Redon"
+  ogImage="https://www.cjalmultiservices.fr/images/davalchristophe.jpg"
+
+  > 
+
+ 
+
+  <!-- contenu de la home -->
+   <Hero />
+   <Hero2 />
+   <BlocTexte />
+</BaseLayout>
