@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import FilAriane from '../components/FilAriane.astro';
 import Formulaire from '../components/Formulaire.astro';
 
 const schema = [
@@ -28,5 +29,10 @@ const schema = [
   ogImage="https://www.cjalmultiservices.fr/images/christophe-640w.webp"
   schema={schema}
 >
+<!-- Sur la page Contact -->
+<FilAriane items={[
+  { label: "Accueil", href: "/" },
+  { label: "Contact" }
+]} />
   <Formulaire />
 </BaseLayout>
